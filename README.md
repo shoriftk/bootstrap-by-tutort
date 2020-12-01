@@ -1,1 +1,1 @@
-# bootstrap-by-tutort
+https://shoriftk.github.io/bootstrap-by-tutort/.
