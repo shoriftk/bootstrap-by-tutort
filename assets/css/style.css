@@ -1,0 +1,234 @@
+/*general css*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*header css */
+header{
+	padding: 15px 0;
+}
+.brand img{
+	width: 60%!important;
+}
+.menu li a{
+	font-size: 20px;
+	color:#505050!important;
+	padding: 0 20px!important;
+	display: inline-block;
+	transition: 0.3s ease;
+}
+.menu li a:hover{
+	color:#43CB83!important; 
+}
+
+/*slider css*/
+.overlay{
+	background-color: rgba(121,211,164,0.7);
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+.carousel-content{
+	top:40%;
+}
+
+.carousel-content h5{
+	font-size: 35px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+}
+.carousel-content p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+}
+.carousel-content a{
+	color: #000;
+	text-decoration: none;
+	background-color: #fff;
+	display: inline-block;
+	padding: 12px 30px;
+	border-radius: 10px;
+}
+.carousel-content a:hover{
+	background-color: #43CB83;
+	color:#fff;
+}
+
+
+/*product css*/
+
+.product{
+	padding: 50px 0;
+}
+.title h1{
+	font-size: 28px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.prod_content{
+	text-align: center;
+	padding:15px 30px;
+}
+
+.icon{
+	height: 80px;
+	width: 80px;
+	background-color: #A1D21F;
+	border-radius: 50%;
+	margin: auto;
+	line-height: 100px;
+}
+.icon i{
+	font-size: 50px;
+	color:#fff;
+}
+.prod_content h2{
+	font-size: 25px;
+	font-weight: 400;
+	color:#000;
+	padding: 10px 0;
+}
+.prod_content p{
+	font-size: 18px;
+}
+
+/*about css*/
+.about{
+	padding: 50px 0;
+	background-color: #F0F0F0;
+}
+.about_content{
+	margin-top: 80px;
+}
+.about_content h1{
+	font-size: 28px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.about_content p{
+	font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    word-spacing: 4px;
+    padding-right: 35px;
+}
+.about-img{
+	text-align: right;
+}
+.about-img img{
+	width:100%;
+}
+
+/*testimonial css*/
+.testimonial{
+	padding: 50px 0;
+}
+.testimonial-img{}
+.testimonial-img img{
+	float: right;
+}
+.testimonial-content{
+	margin-top: 25px;
+}
+.testimonial-content h3{
+	font-size: 22px;
+	font-weight: 500;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.testimonial-content p{
+	font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    word-spacing: 4px;
+    padding-right: 45px;
+}
+
+/*subscribe css*/
+.subscribe{
+	padding: 50px 0;
+	background-color: #43CB83;
+}
+.subscribe input{
+	width: 100%;
+	padding: 10px 8px;
+	background-color: transparent;
+	border:1px solid #fff;
+	border-radius: 8px;
+}
+.subscribe input:focus{
+	outline:none;
+}
+.subscribe input::placeholder{
+	color: #fff;
+	font-weight: 700;
+}
+.subscribe button{
+	font-size: 18px;
+    font-weight: 400;
+    color: #43CB83;
+    background: #fff;
+    border: none;
+    padding: 10px 50px;
+    border-radius:8px;
+}
+.subscribe button:hover{
+	color: #000;
+}
+
+/*contact css*/
+.contact{
+	padding: 50px 0;
+}
+.contact h3{
+	font-size: 30px;
+    font-weight: 700;
+    color: #000;
+}
+.bottom-about{}
+.bottom-about p{
+	font-size: 19px;
+    color: #363636;
+    line-height: 30px;
+}
+.bottom-link{}
+.bottom-link ul{
+	list-style-type: none;
+}
+.bottom-link ul li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.bottom-link ul li a{
+	font-weight: 18px;
+	font-weight: 700;
+	color: #000;
+}
+.bottom-link ul li a:hover{}
+.bottom-contact{}
+.bottom-contact p{
+	font-size:18px;
+	font-weight: 700;
+	color:#000;
+	padding-left: 10px;
+}
+
+
+/*footer css*/
+footer{
+	background-color: #2A2A2A;
+}
+footer p{
+	color: #fff;
+	margin-top: 10px;
+}
